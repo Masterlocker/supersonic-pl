@@ -109,7 +109,8 @@ else
   cp /usr/lib/x86_64-linux-gnu/libicuuc.so.70 Supersonic.AppDir/usr/lib/ # CachyOS fix
   cp /usr/lib/x86_64-linux-gnu/libicudata.so.70 Supersonic.AppDir/usr/lib/ # CachyOS fix
   cp /usr/lib/x86_64-linux-gnu/libnettle.so.8 Supersonic.AppDir/usr/lib/
-  cp /usr/lib/x86_64-linux-gnu/libcdio.so.19 Supersonic.AppDir/usr/lib/ #void linux fix
+  cp /usr/lib/x86_64-linux-gnu/libcdio.so.19 Supersonic.AppDir/usr/lib/ #void linux + CachyOS fix 
+  cp /usr/lib/x86_64-linux-gnu/libraw1394.so.11 Supersonic.AppDir/usr/lib/ #void linux fix
   set +x
 fi
 
